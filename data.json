@@ -1,0 +1,64 @@
+{
+  "menus": [
+    {
+      "name": "name 1",
+      "price": 1000,
+      "description": "description 1",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "name 2",
+      "price": 200,
+      "description": "description 2"
+    },
+    {
+      "id": "3",
+      "name": "name 3",
+      "price": 300,
+      "description": "description 3"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "name": "name 1",
+      "email": "email 1",
+      "date": "date 1",
+      "npeople": "number of people 1",
+      "srequest": "special request 1"
+    },
+    {
+      "id": "2",
+      "name": "name 2",
+      "email": "email 2",
+      "date": "date 2",
+      "npeople": "number of people 2",
+      "srequest": "special request 2"
+    },
+    {
+      "id": "3",
+      "name": "name 3",
+      "email": "email 3",
+      "date": "date 3",
+      "npeople": "number of people 3",
+      "srequest": "special request 3"
+    },
+    {
+      "id": "4",
+      "name": "name 4",
+      "email": "email 4",
+      "date": "date 4",
+      "npeople": "number of people 4",
+      "srequest": "special request 4"
+    },
+    {
+      "id": "825b",
+      "name": "name 5",
+      "email": "email 5",
+      "date": "date 5",
+      "npeople": "number of people 5",
+      "srequest": "special request 5"
+    }
+  ]
+}
