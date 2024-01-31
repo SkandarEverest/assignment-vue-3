@@ -22,7 +22,11 @@ const router = createRouter({
       component:BookingView
     }
   ],
-  linkActiveClass: "active"
+  linkActiveClass: "active",
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top: 0 }
+  },
 })
 
 export default router

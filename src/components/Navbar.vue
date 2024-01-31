@@ -10,7 +10,7 @@ defineProps({
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 mt-0" :class="show? 'sticky-top shadow-sm' : ''">
-      <a href="" class="navbar-brand p-0">
+      <a href="/" class="navbar-brand p-0">
           <h1 class="text-primary m-0"><font-awesome-icon icon="utensils" class="me-3" />Restoran</h1>
           <!-- <img src="@/assets/img/logo.svg" alt="Logo"> -->
       </a>
