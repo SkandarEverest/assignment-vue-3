@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
+import MenuView from '../views/MenuView.vue'
+import BookingView from '../views/BookingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,11 +12,17 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component:AboutView
+      path: '/menu',
+      name: 'menu',
+      component:MenuView
+    },
+    {
+      path: '/booking',
+      name: 'booking',
+      component:BookingView
     }
-  ]
+  ],
+  linkActiveClass: "active"
 })
 
 export default router

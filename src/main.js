@@ -1,8 +1,13 @@
 // import "bootstrap/dist/css/bootstrap.min.css"
+import "@fontsource/heebo";
+import "@fontsource/nunito";
+import "@fontsource/pacifico";
+
 import './scsss/styles.scss';
 import "bootstrap"
 import "bootstrap-icons/font/bootstrap-icons.css"
-import 'wowjs/css/libs/animate.css';
+import 'wow.js/css/libs/animate.css';
+
 import './assets/main.css'
 
 import WOW from "wow.js"
@@ -12,12 +17,13 @@ import { createPinia } from 'pinia'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUtensils, faBars, faUserTie, faCartPlus, faHeadset } from '@fortawesome/free-solid-svg-icons'
+import { faUtensils, faBars, faUserTie, faCartPlus, faHeadset, faMapMarkerAlt, faPhoneAlt, faEnvelope, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 import App from './App.vue'
 import router from './router'
 
-library.add(faUtensils,faBars, faUserTie, faCartPlus, faHeadset)
+library.add(faUtensils,faBars, faUserTie, faCartPlus, faHeadset, faMapMarkerAlt, faPhoneAlt, faEnvelope, faTwitter,faFacebookF, faYoutube, faLinkedinIn, faChevronRight)
 
 const app = createApp(App)
 

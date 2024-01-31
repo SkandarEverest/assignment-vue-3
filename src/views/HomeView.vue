@@ -1,8 +1,14 @@
 <script setup>
+import Service from '../components/Service.vue'
+import About from '../components/About.vue'
 </script>
 
 <template>
-  <main>
-    <h1>hello</h1>
-  </main>
+  <!-- Service Start -->
+  <Service />
+  <!-- Service End -->
+
+  <!-- About Start -->
+  <About />
+  <!-- About End -->
 </template>
