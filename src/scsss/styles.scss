@@ -1,0 +1,13 @@
+// Import Bootstrap SCSS
+$theme-colors: (
+    "primary":#FEA116,
+    "light": #F1F8FF,
+    "dark": #0F172B
+    //...other variables, you can find them in node_modules/bootstrap/scss/_variables.scss
+);
+
+// import to set changes
+@import "~bootstrap/scss/bootstrap";
+
+
+
