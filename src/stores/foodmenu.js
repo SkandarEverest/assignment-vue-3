@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-export const useFoodmenuStore = defineStore('counter', () => {
+export const useFoodmenuStore = defineStore('menu', () => {
 
   const items = ref([])
 
