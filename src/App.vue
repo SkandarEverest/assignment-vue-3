@@ -56,7 +56,7 @@
 
       <!-- Hero -->
       <Hero v-if="currentRouteName === 'home'" />
-      <SectionHead v-else :msg="currentRouteName" />
+      <SectionHead v-else :msg="currentRouteName??''" />
     </div>
     <!-- Navbar & Hero End -->
 
